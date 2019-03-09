@@ -2,7 +2,7 @@
   "name": "phone-book",
   "version": "1.0.0",
   "description": "Just another application that stores your contacts.",
-  "main": "dist/",
+  "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
