@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+}
+
+body {
+    height: 100%;
+    background-color: #AA3939;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    color: #FFAAAA;
+    font-family: 'Righteous', cursive;
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+.contact-form-div {
+    margin-bottom: 10px;
+    border: 2px solid #FFAAAA;
+    border-radius: 4px;
+}
+.contacts {
+    box-sizing: border-box;
+    background-color: white;
+    border: 2px solid #FFAAAA;
+    border-radius: 4px;
+}
+
+li {
+    border-bottom: 1px solid #FFAAAA;
+    padding: 10px 20px;
+    list-style-type: none;
+}
+
+.contact-div {
+    background-color: white;
+    display: inline-block;
+}
+
+.delete-btn {
+    float: right;
+    margin-top: 10px;
+}
+
+.delete-btn .fas {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.name {
+    color: #AA3939;
+    margin-bottom: 2px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.pagination-buttons {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.btn {
+    padding: 5px;
+    margin-left: 5px;
+    border: 2px solid #FFAAAA;
+    background-color: lightgray;
+    border-radius: 12px;
+    font-weight: 500;
+    color: #AA3939;
+    cursor: pointer;
+}
+
+.fas, .page {
+    color: #AA3939;
+}
+
+.fa-hand-point-left {
+    padding-right: 5px;
+}
+
+.fa-hand-point-right {
+    padding-left: 5px;
+}
